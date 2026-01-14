@@ -1,0 +1,75 @@
+# 환경 변수 파일 (API Key 포함)
+.env
+*.env
+.env.local
+.env.*.local
+
+# API 키 및 설정 파일
+config.ini
+config.json
+secrets.json
+
+# Python 캐시 및 컴파일 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 빌드 및 배포 폴더
+build/
+dist/
+release/
+*.egg-info/
+*.egg
+
+# ZIP 파일 (배포용)
+*.zip
+
+# 가상환경
+venv/
+ENV/
+env/
+.venv
+conda-env/
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 출력 파일 (선택적으로 제외)
+output/*.json
+
+# 로그 파일
+*.log
+
+# 테스트 및 캐시
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 임시 파일
+*.tmp
+*.bak
+*.backup
+
+# Windows 썸네일 캐시
+Thumbs.db
+
+# macOS 파일
+.DS_Store
+.AppleDouble
+.LSOverride
