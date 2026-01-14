@@ -1,4 +1,4 @@
-# 🎨 AI 프롬프트 생성기
+# AI 프롬프트 생성기
 
 이미지를 분석해서 Midjourney, DALL-E 같은 AI 이미지 생성 도구용 고품질 프롬프트를 자동으로 만들어주는 도구
 
@@ -8,17 +8,17 @@
 
 ---
 
-## ✨ 특징
+## 특징
 
-- 🆓 **완전 무료** (Google Gemini 1.5 Flash)
-- ⚡ **빠른 생성** (1-3초)
-- 🎯 **고품질** 영문 프롬프트
-- 💻 **간단한 GUI**
-- 🔒 **로컬 실행** (서버 불필요)
+- 완전 무료 (Google Gemini 1.5 Flash)
+- 빠른 생성 (1-3초)
+- 고품질 영문 프롬프트
+- 간단한 GUI
+- 로컬 실행 (서버 불필요)
 
 ---
 
-## 🚀 빠른 시작
+## 빠른 시작
 
 ### 1단계: API Key 발급 (무료)
 
@@ -50,7 +50,7 @@ python src/promptmaker_gui.py
 
 ---
 
-## 📖 사용 방법
+## 사용 방법
 
 ### 간단한 3단계
 
@@ -65,7 +65,7 @@ python src/promptmaker_gui.py
 
 ---
 
-## 💡 예시
+## 예시
 
 **입력**
 - 이미지: 애니메이션 캐릭터 이미지
@@ -82,7 +82,7 @@ doing high-five gesture...
 
 ---
 
-## 📦 EXE 파일로 배포
+## EXE 파일로 배포
 
 Python 없이 실행 가능한 프로그램 만들기:
 
@@ -96,7 +96,7 @@ python scripts/build_exe.py
 
 ---
 
-## 📂 프로젝트 구조
+## 프로젝트 구조
 
 ```
 prompt-from-image/
@@ -111,7 +111,7 @@ prompt-from-image/
 
 ---
 
-## ❓ 자주 묻는 질문
+## 자주 묻는 질문
 
 **Q. API Key를 어떻게 발급받나요?**
 - https://aistudio.google.com/app/apikey 에서 무료로 발급 (하루 1,500회 사용 가능)
@@ -131,26 +131,26 @@ pip install -r requirements.txt
 
 ---
 
-## 💰 비용
+## 비용
 
 완전 무료! (Google Gemini 1.5 Flash 무료 버전 사용)
 
 ---
 
-## 🔒 보안 주의
+## 보안 주의
 
 - `.env` 파일에 API Key가 저장되니 절대 공유하지 마세요
 - `.gitignore`에 자동으로 제외되어 있습니다
 
 ---
 
-## 📝 라이선스
+## 라이선스
 
 MIT License
 
 ---
 
-## 🤝 기여
+## 기여
 
 이슈 및 PR 환영합니다!
 
@@ -158,5 +158,4 @@ MIT License
 
 ---
 
-**버전**: 1.0
-**개발**: Claude Code Assistant
+버전: 1.0
