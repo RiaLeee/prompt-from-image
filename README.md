@@ -1,12 +1,7 @@
 # AI 프롬프트 생성기
 
-이미지를 분석해서 Midjourney, DALL-E 같은 AI 이미지 생성 도구용 고품질 프롬프트를 자동으로 만들어주는 도구
+이미지를 분석해서 AI 이미지 생성 도구용 고품질 프롬프트를 자동으로 만들어주는 도구
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![Python](https://img.shields.io/badge/python-3.10+-green)
-![License](https://img.shields.io/badge/license-MIT-yellow)
-
----
 
 ## 특징
 
@@ -20,15 +15,15 @@
 
 ## 빠른 시작
 
-### 1단계: API Key 발급 (무료)
+### 방법 1: 개발자용 (Python 실행)
 
+#### 1. API Key 발급 (무료)
 1. https://aistudio.google.com/app/apikey 접속
 2. Google 계정 로그인
 3. "Create API Key" 클릭
 4. API Key 복사
 
-### 2단계: 설치
-
+#### 2. 설치 및 실행
 ```bash
 # 저장소 클론
 git clone https://github.com/RiaLeee/prompt-from-image.git
@@ -40,13 +35,25 @@ pip install -r requirements.txt
 # API Key 설정
 copy .env.example .env
 # .env 파일을 열어서 API Key 입력
-```
 
-### 3단계: 실행
-
-```bash
+# 실행
 python src/promptmaker_gui.py
 ```
+
+---
+
+### 방법 2: 일반 사용자용 (EXE 파일)
+
+#### 1. 배포용 ZIP 파일 받기
+- 배포된 `prompt-maker-v1.0.zip` 다운로드
+- 원하는 위치에 압축 해제
+
+#### 2. 실행
+1. `프롬프트생성기.exe` 더블클릭
+2. 프로그램 내에서 API Key 입력 (최초 1회)
+3. 바로 사용!
+
+> Python 설치 불필요!
 
 ---
 
@@ -149,12 +156,6 @@ pip install -r requirements.txt
 MIT License
 
 ---
-
-## 기여
-
-이슈 및 PR 환영합니다!
-
-- GitHub: https://github.com/RiaLeee/prompt-from-image
 
 ---
 
