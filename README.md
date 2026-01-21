@@ -1,4 +1,4 @@
-# AI 프롬프트 생성기
+<img width="810" height="606" alt="image" src="https://github.com/user-attachments/assets/1256a612-1d80-4b5e-a31b-314e151c6a73" /># AI 프롬프트 생성기
 
 이미지를 분석해서 AI 이미지 생성 도구용 고품질 프롬프트를 자동으로 만들어주는 도구
 
@@ -156,6 +156,7 @@ pip install -r requirements.txt
 MIT License
 
 ---
+<img width="810" height="606" alt="image" src="https://github.com/user-attachments/assets/94fe881f-2029-494b-afb3-2a7352268293" />
 
 ---
 
