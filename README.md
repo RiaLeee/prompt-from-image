@@ -2,10 +2,10 @@
 
 이미지를 분석해서 AI 이미지 생성 도구용 고품질 프롬프트를 자동으로 만들어주는 도구
 
-## only prompt
+### BEFORE (only prompt)
 <img width="810" height="606" alt="image" src="https://github.com/user-attachments/assets/1256a612-1d80-4b5e-a31b-314e151c6a73" />
 
-## user <prompt-from-image>
+### AFTER (use <prompt-from-image>)
 <img width="722" height="650" alt="image" src="https://github.com/user-attachments/assets/385f5e74-c886-4fae-8296-312846275390" />
 
 ## 특징
